@@ -10,7 +10,7 @@
 
 如果你有任何问题或反馈程序问题请提交`Issues`
 
-<img src="https://github.com/Mangofang/BackupHunter/img/header.png" />
+<img src="https://github.com/Mangofang/BackupHunter/blob/main/img/hander.png" />
 
 ## 关于：
 BackupHunter 是一个基于 `Go` 语言开发的自动化备份文件扫描与监控系统。使用`OneForAll`进行子域名发现，集成备份文件扫描、任务调度等功能，可以帮助安全研究人员自动化地发现和监控目标域名的备份文件。
