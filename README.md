@@ -41,9 +41,11 @@ BackupHunter 是一个基于 `Go` 语言开发的自动化备份文件扫描与�
 ## 部署
 ### Docker部署（推荐）
 ```
-curl -o BackupHunter.zip https://github.com/Mangofang/BackupHunter/releases/download/20260217/BackupHunter.zip && unzip BackupHunter.zip
+curl -o BackupHunter.zip https://github.com/Mangofang/BackupHunter/releases/download/20260217/BackupHunter.zip
+unzip BackupHunter.zip
 cd BackupHunter
-docker-compose up -d --build
+chmod +x deploy.sh
+./deploy.sh
 ```
 
 ## 免责声明
